@@ -1,6 +1,6 @@
 <h1>Invoice payment frame для Android</h1>
 <h3>PaymentFrame</h3>
-Содержится в папке **invoicepaymentframe**<br>
+Содержится в папке: <b>invoicepaymentframe</b>
 
 Использование: <br>
 Разместите на вашем layout'е элемент
