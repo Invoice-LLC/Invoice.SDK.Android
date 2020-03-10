@@ -1,6 +1,6 @@
 <h1>Invoice payment frame для Android</h1>
 <h3>PaymentFrame</h3>
-Содержится в папке **invoicepaymentframe**<br>
+Содержится в папке: <b>invoicepaymentframe</b>
 
 Использование: <br>
 Разместите на вашем layout'е элемент
@@ -10,7 +10,7 @@
                                                  android:id="@+id/paymentFrame"/>
 ```
 Затем нужно получить id платежа из API вашего магазина<br>
-**Ни в коем случае не создавайте платеж на клиенте, как это сделано в примере(Папка app), это не безопасно**
+**Ни в коем случае не создавайте платеж на клиенте, как это сделано в примере(Папка app), это не безопасно**<br>
 И загрузить PaymentFrame, как это показано ниже
 ```java
 public class MainActivity extends AppCompatActivity {
