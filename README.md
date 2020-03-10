@@ -24,6 +24,22 @@ public class MainActivity extends AppCompatActivity {
     
     public void pay(String paymentId) {
         frame.loadPayment(paymentId); // Загрузить страницу оплаты
+        frame.setCallback(new PaymentFrame.PaymentCallback() {
+            @Override
+            public void onError(@Nullable String statusMsg) {
+                //Действие при неудачной оплате
+            }
+
+            @Override
+            public void onSuccess(PaymentStatus status) {
+                //Действие при успешной оплате
+            }
+
+            @Override
+            public void onOtherStatus(PaymentStatus status, @Nullable String statusMsg) {
+                //Действие при других статусах оплаты
+            }
+        });
     }
 }
 ```
